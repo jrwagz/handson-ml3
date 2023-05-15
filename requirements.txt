@@ -27,14 +27,14 @@ transformers~=4.21.3
 # you must install CUDA, cuDNN and more: see tensorflow.org for the detailed
 # installation instructions.
 
-tensorflow~=2.10.0
+tensorflow
 # Optional: the TF Serving API library is just needed for chapter 18.
-tensorflow-serving-api~=2.10.0  # or tensorflow-serving-api-gpu if gpu
+# tensorflow-serving-api  # or tensorflow-serving-api-gpu if gpu
 
-tensorboard~=2.10.0
-tensorboard-plugin-profile~=2.8.0
-tensorflow-datasets~=4.6.0
-tensorflow-hub~=0.12.0
+tensorboard
+tensorboard-plugin-profile
+tensorflow-datasets
+tensorflow-hub
 
 # Used in chapter 10 and 19 for hyperparameter tuning
 keras-tuner~=1.1.3
